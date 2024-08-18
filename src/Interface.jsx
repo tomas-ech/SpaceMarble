@@ -45,7 +45,7 @@ export const Interface = () => {
   return (
     <div className='interface'>
 
-      <div className="time">Tiempo:
+      <div className="time">Time:
         <span className='timer' ref={time}> 0.00 </span>
       </div>
 
