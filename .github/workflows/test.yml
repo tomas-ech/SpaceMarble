@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - master
+      - Qa
 
   pull_request: 
     branches:
       - master
+      - Qa
 
 jobs:
   hola:
